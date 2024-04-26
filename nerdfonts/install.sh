@@ -48,7 +48,7 @@ FONTS="Cascadia CascadiaMono CascadiaPL CascadiaMonoPL"
 
 for f in $FONTS; do
     URL="https://github.com/microsoft/cascadia-code/releases/latest/download/"
-    URL="https://github.com${f}.ttf"
+    #URL="https://github.com${f}.ttf"
     OUT="$f.ttf"
     info "Downloading $URL to $OUT"
     curl -L $URL --output $OUT
