@@ -32,6 +32,7 @@ $character"""
 # disabled due to fill module
 # right_format = ''
 add_newline = true
+# command_timeout = 1000
 
 [line_break]
 disabled = false
@@ -53,13 +54,12 @@ Ubuntu = " "
 disabled = false
 symbol = "🧙"
 format = '[$symbol ]($style)'
-style = "bg:#659CD9"
+style = "bg:#C2B4DF"
 
 [shell]
 disabled = false
 zsh_indicator = ''
 powershell_indicator = ''
-cmd_indicator = ''
 style = 'fg:#F2F2F2 bg:#659CD9'
 format = '[$indicator ]($style)'
 
@@ -112,13 +112,13 @@ style = 'fg:#3376CD bold inverted'
 symbol = '󰠅 '
 
 [golang]
-disabled = false
+disabled = true
 format = '[](fg:cyan)[$symbol($version )]($style)[](fg:cyan)'
 style = 'fg:cyan inverted'
 symbol = ' '
 
 [status]
-disabled = true
+disabled = false
 symbol = '🔴 '
 success_symbol = ''
 format = '[$symbol( $common_meaning )$signal_name$maybe_int]($style) '
@@ -126,8 +126,186 @@ map_symbol = true
 
 [terraform]
 symbol = '󱁢 '
-format = '[](fg:105)[$symbol$version( $workspace)]($style)[](fg:105)'
+#format = '[](fg:105)[$symbol$version( $workspace)]($style)[](fg:105)'
+format = '[](fg:105)[$symbol]($style)[](fg:105)'
 style = 'fg:105 inverted'
 
-[battery]
+[hostname]
+disabled = true
+
+[kubernetes]
+disabled = true
+
+[pulumi]
+disabled = true
+
+[aws]
+disabled = true
+
+[buf]
+disabled = true
+
+[bun]
+disabled = true
+
+[c]
+disabled = true
+
+[cmake]
+disabled = true
+
+[cobol]
+disabled = true
+
+[conda]
+disabled = true
+
+[crystal]
+disabled = true
+
+[daml]
+disabled = true
+
+[dart]
+disabled = true
+
+[deno]
+disabled = true
+
+[elixir]
+disabled = true
+
+[elm]
+disabled = true
+
+[erlang]
+disabled = true
+
+[fennel]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[guix_shell]
+disabled = true
+
+[gradle]
+disabled = true
+
+[haskell]
+disabled = true
+
+[haxe]
+disabled = true
+
+[helm]
+disabled = true
+
+[java]
+disabled = true
+
+[jobs]
+disabled = true
+
+[julia]
+disabled = true
+
+[kotlin]
+disabled = true
+
+[localip]
+disabled = true
+
+[lua]
+disabled = true
+
+[meson]
+disabled = true
+
+[nim]
+disabled = true
+
+[nix_shell]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[ocaml]
+disabled = true
+
+[opa]
+disabled = true
+
+[openstack]
+disabled = true
+
+[package]
+disabled = true
+
+[perl]
+disabled = true
+
+[php]
+disabled = true
+
+[pijul_channel]
+disabled = true
+
+[purescript]
+disabled = true
+
+[python]
+disabled = true
+
+[quarto]
+disabled = true
+
+[rlang]
+disabled = true
+
+[raku]
+disabled = true
+
+[red]
+disabled = true
+
+[ruby]
+disabled = true
+
+[rust]
+disabled = true
+
+[scala]
+disabled = true
+
+[shlvl]
+disabled = true
+
+[singularity]
+disabled = true
+
+[solidity]
+disabled = true
+
+[spack]
+disabled = true
+
+[swift]
+disabled = true
+
+[typst]
+disabled = true
+
+[vagrant]
+disabled = true
+
+[vlang]
+disabled = true
+
+[vcsh]
+disabled = true
+
+[zig]
 disabled = true
