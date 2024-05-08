@@ -18,7 +18,12 @@ Some of the Windows install scripts use the "scoop" utility, so it is recommende
 ## Scripts/Configs by Platform
 
 | Script/Config | Ubuntu | Windows |
-| --------------- | -------- | --------- |
-| Scoop         |        | Y       |
-| Nerd Fonts    | Y      | Y       |
-| Starship      | Y      | Y       |
+| ------------- | ------ | ------- |
+| Certificates | Y | |
+| Clink | | Y |
+| Nerd Fonts | Y | Y |
+| Profile | Y | |
+| Scoop | | Y |
+| Starship | Y | Y |
+| Windows Terminal | | Y |
+| VS Code | Y | Y |
